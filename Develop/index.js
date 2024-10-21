@@ -20,28 +20,38 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'name',
-    message: "what is you name?"
+    name: 'table of contents',
+    message: "what is your table of contents for your project?"
 },
 {
     type: 'input',
-    name: 'name',
-    message: "what is you name?"
+    name: 'installation',
+    message: "what is the installation?"
 },
 {
     type: 'input',
-    name: 'name',
-    message: "what is you name?"
+    name: 'usage',
+    message: "what is the usage?"
 },
 {
     type: 'input',
-    name: 'name',
-    message: "what is you name?"
+    name: 'license',
+    message: "what is the license?"
 },
 {
     type: 'input',
-    name: 'name',
-    message: "what is you name?"
+    name: 'contributing',
+    message: "who was contributing?"
+},
+{
+    type: 'input',
+    name: 'test',
+    message: "what was your test?"
+},
+{
+    type: 'input',
+    name: 'questions',
+    message: "what are your questions?"
 },
 // title of your project
 //description
