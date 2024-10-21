@@ -20,7 +20,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'table of contents',
+    name: 'tableofcontents',
     message: "what is your table of contents for your project?"
 },
 {
@@ -68,6 +68,33 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, JSON.stringify(data.name), (error) => {console.log(error)});
+}
+function writeToFile(fileName, title) {
+    fs.writeFile(fileName, JSON.stringify(title), (error) => {console.log(error)});
+}
+function writeToFile(fileName, description) {
+    fs.writeFile(fileName, JSON.stringify(description), (error) => {console.log(error)});
+}
+function writeToFile(fileName, tableofcontents) {
+    fs.writeFile(fileName, JSON.stringify(tableofcontents), (error) => {console.log(error)});
+}
+function writeToFile(fileName, installation) {
+    fs.writeFile(fileName, JSON.stringify(installation), (error) => {console.log(error)});
+}
+function writeToFile(fileName, usage) {
+    fs.writeFile(fileName, JSON.stringify(usage), (error) => {console.log(error)});
+}
+function writeToFile(fileName, license) {
+    fs.writeFile(fileName, JSON.stringify(license), (error) => {console.log(error)});
+}
+function writeToFile(fileName, contributing) {
+    fs.writeFile(fileName, JSON.stringify(contributing), (error) => {console.log(error)});
+}
+function writeToFile(fileName, test) {
+    fs.writeFile(fileName, JSON.stringify(test), (error) => {console.log(error)});
+}
+function writeToFile(fileName, questions) {
+    fs.writeFile(fileName, JSON.stringify(questions), (error) => {console.log(error)});
 }
 
 // TODO: Create a function to initialize app
